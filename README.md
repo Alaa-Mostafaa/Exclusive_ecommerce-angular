@@ -41,4 +41,4 @@ The user is prevented from using the quantity button to decrease if the quantity
 10) Account page.
 11) Checkout page.
 
-ي(
+
