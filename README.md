@@ -1,3 +1,7 @@
+Exclusive app :
+
+It is an e-commerce application built using Angular language.
+
 1) Authentication System:
 
 A) Registration: Through it, the user can register in the application, and there are some errors that may appear to the user, such as any empty field, an error appears that the field is required, and the email is already in use, so the user must log in or use another email.
