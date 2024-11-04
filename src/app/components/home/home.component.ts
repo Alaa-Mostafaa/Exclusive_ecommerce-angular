@@ -40,6 +40,7 @@ export class HomeComponent implements AfterViewInit  {
   this.GetAllProducts()
 
    /* The arrow appears after it passes the navigation bar */
+
    $(window).scroll(function() {
     let windowScroll = $(window).scrollTop();
   

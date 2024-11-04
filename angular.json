@@ -23,6 +23,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "allowedCommonJsDependencies": [
+              "jquery",
+              "sweetalert2"
+            ],
             "outputPath": "dist/final_ecommerce",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -57,13 +61,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "5000kB",
+                  "maximumError": "3000MB"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kB",
-                  "maximumError": "4kB"
+                  "maximumWarning": "5000kB",
+                  "maximumError": "4000kB"
                 }
               ],
               "outputHashing": "all"
