@@ -34,11 +34,12 @@ There are also some products at the end of the page that depend on the product c
 The user is prevented from using the quantity button to decrease if the quantity of the product is only one because there is no quantity less than one.
 
 5) Page 404: If the page name is entered incorrectly or the name does not exist, you will be transferred to page 404.
-6) Wishlist: The products in the user's wishlist are displayed only with the ability to easily delete any product from the list or transfer all of these products to the cart to purchase them, and then the cart and total price are modified.
-7) cart: Only the user’s products are displayed, with the ability to easily delete any product from the cart or modify the quantity of any product, whether by increasing or decreasing it, and the price is also modified automatically.
-8) About us page.
-9) Contact us page.
-10) Account page.
-11) Checkout page.
+6) Search: The user can search for the product he wants by name through the search input in the navigation bar. The product names will be displayed and any name can be clicked to display the desired product individually.
+7) Wishlist: The products in the user's wishlist are displayed only with the ability to easily delete any product from the list or transfer all of these products to the cart to purchase them, and then the cart and total price are modified.
+8) cart: Only the user’s products are displayed, with the ability to easily delete any product from the cart or modify the quantity of any product, whether by increasing or decreasing it, and the price is also modified automatically.
+9) About us page.
+10) Contact us page.
+11) Account page.
+12) Checkout page.
 
 
