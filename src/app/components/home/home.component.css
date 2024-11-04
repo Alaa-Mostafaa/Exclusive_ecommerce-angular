@@ -112,4 +112,8 @@ background-color: #db4444;
     #Counter span{
         font-size: 12px;
     }
+
+    #arrows{
+        width:50%
+    }
 }
