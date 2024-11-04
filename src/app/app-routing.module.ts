@@ -27,7 +27,7 @@ const routes: Routes = [
   {path:'products',component:ProductsComponent,title:'E-Commerce | All Products ',pathMatch:'full'},
   {path:'categories',component:CategoriesComponent,title:'E-Commerce | All Categories ',pathMatch:'full'},
   {path:'categories/:cat',component:OneCategoryComponent,title:'E-Commerce | One Category',pathMatch:'full'},
-  {path:'product/:id',component:ShowOneProductComponent,title:'E-Commerce | One Product ',pathMatch:'full'},
+  {path:'product/:id',component:ShowOneProductComponent,title:'E-Commerce | One Product ',pathMatch:'full',canActivate:[authGuard]},
   {path:'forgetPassword',component:ForgetPasswordComponent,title:'E-Commerce | Forget Password ',pathMatch:'full'},
   {path:'cart',component:CartComponent,title:'E-Commerce | My Cart ',pathMatch:'full',canActivate:[authGuard]},
   {path:'wishlist',component:WishlistComponent,title:'E-Commerce | My Wishlist ',pathMatch:'full',canActivate:[authGuard]},
